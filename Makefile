@@ -2,4 +2,4 @@
 .PHONY: eslint
 
 eslint:
-	docker run -it --rm -v .:/data cytopia/eslint /data/g2ttrss-mobile/js/g2tt-config.js  -c eslint.config.js
+	npx eslint eslint.config.mjs g2ttrss-mobile --ignore-pattern '**/jquery-1.9.1.min.js'

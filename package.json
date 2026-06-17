@@ -1,0 +1,31 @@
+{
+  "name": "g2ttrss_development",
+  "version": "1.0.0",
+  "description": "Dev environment for pherring/g2ttrss-mobile",
+  "main": "js/g2tt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauljherring/g2ttrss_development.git"
+  },
+  "keywords": [
+    "ttrss",
+    "g2ttrss-mobile",
+    "mobile",
+    "rss",
+    "reader"
+  ],
+  "author": "Paul Herring",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pauljherring/g2ttrss_development/issues"
+  },
+  "homepage": "https://github.com/pauljherring/g2ttrss_development#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.5.0",
+    "globals": "^17.6.0"
+  }
+}
