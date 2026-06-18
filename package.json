@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/pauljherring/g2ttrss_development#readme",
   "devDependencies": {
+    "@eslint/css": "^1.3.0",
     "@eslint/js": "^10.0.1",
+    "@html-eslint/eslint-plugin": "^0.62.0",
     "eslint": "^10.5.0",
     "globals": "^17.6.0"
   }
